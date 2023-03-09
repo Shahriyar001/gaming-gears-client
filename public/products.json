@@ -1,0 +1,86 @@
+[
+    {
+        "category_id": "1",
+        "title": "PS-5",
+        "details": "The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. It was announced as successor to the PlayStation 4 in April 2019",
+        "img": "https://i.ibb.co/r6sbhhK/ps5.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "2",
+        "title": "Gaming keyboard",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/cwS6P2D/keyboard.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "3",
+        "title": "Vr-set",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/BBqxzv7/vr-set.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "1",
+        "title": "Xbox",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/s37cRq8/xbox.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "2",
+        "title": "Mouse",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/rwKc3yw/mouse.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "3",
+        "title": "Stearing Wheel",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/w6Bghgn/pxn.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "1",
+        "title": "Handheld",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/BcWZtd6/handheld.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "2",
+        "title": "Headphone",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/LkjWkyy/headphone.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "3",
+        "title": "Vr-headset",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/5vt1XJp/vr-headset.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "1",
+        "title": "PSP",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/d5JC3Fg/psp.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "2",
+        "title": "Graphics Card",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/f1qzphk/rtx2.jpg",
+        "price": 99
+    },
+    {
+        "category_id": "3",
+        "title": "Vr-remote",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam obcaecati, voluptas quod impedit at autem?",
+        "img": "https://i.ibb.co/HTMSDFc/remote.jpg",
+        "price": 99
+    }
+]
