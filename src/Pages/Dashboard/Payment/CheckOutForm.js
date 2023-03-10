@@ -13,7 +13,7 @@ const CheckOutForm = ({ product }) => {
 
     useEffect(() => {
         // Create PaymentIntent as soon as the page loads
-        fetch("http://localhost:5000/create-payment-intent", {
+        fetch("https://joystick-junction-shahriyar001.vercel.app/create-payment-intent", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -68,7 +68,7 @@ const CheckOutForm = ({ product }) => {
         }
         console.log(paymentIntent)
 
-        if (paymentIntent.status === '"succeeded"') {
+        if (paymentIntent.status === "succeeded") {
             console.log('card info', card);
             setSuccess('congrats! your payment completed')
             setTransactionId(paymentIntent.id);
@@ -110,7 +110,7 @@ const CheckOutForm = ({ product }) => {
             <p className='text-red-500'>{cardError}</p>
             {
                 success && <div>
-                    <p className='text-green-500'>{success}</p>
+                    <p className='text-white-500'>{success}</p>
                     <p>Your transectionId <span className='font-bold'>{transactionId}</span></p>
                 </div>
             }

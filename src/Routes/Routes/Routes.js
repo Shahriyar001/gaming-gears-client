@@ -27,7 +27,7 @@ const router = createBrowserRouter([
             {
                 path: '/caregory/:id',
                 element: <Category></Category>,
-                loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`)
+                loader: ({ params }) => fetch(`https://joystick-junction-shahriyar001.vercel.app/category/${params.id}`)
             },
             // {
             //     path: '/product/:id',
@@ -63,7 +63,7 @@ const router = createBrowserRouter([
             {
                 path: '/dashboard/payment/:id',
                 element: <AdminRoutes><Payment></Payment></AdminRoutes>,
-                loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
+                loader: ({ params }) => fetch(`https://joystick-junction-shahriyar001.vercel.app/products/${params.id}`)
             }
         ]
     }

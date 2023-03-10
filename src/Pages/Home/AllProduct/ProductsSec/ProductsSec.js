@@ -9,12 +9,12 @@ const ProductsSec = () => {
 
     const { data: products = [] } = useQuery({
         queryKey: ['products'],
-        queryFn: () => fetch('http://localhost:5000/products')
+        queryFn: () => fetch('https://joystick-junction-shahriyar001.vercel.app/products')
             .then(res => res.json())
     })
 
     // useEffect(() => {
-    //     fetch('http://localhost:5000/products')
+    //     fetch('https://joystick-junction-shahriyar001.vercel.app/products')
     //         .then(res => res.json())
     //         .then(data => setProducts(data))
     // }, [])
