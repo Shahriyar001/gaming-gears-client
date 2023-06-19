@@ -10,6 +10,8 @@ import FastSupport from '../FastSupport/FastSupport';
 import InfoCard from '../InfoCard/InfoCard';
 import Promotion from '../Promotion/Promotion';
 import Review from '../Review/Review';
+import Fifa from '../Fifa/Fifa';
+import Newsletter from '../NewsLetter/Newsletter';
 
 const Home = () => {
     return (
@@ -22,9 +24,11 @@ const Home = () => {
             <AboutUs></AboutUs>
             <FastSupport></FastSupport>
             <Review></Review>
+            <Fifa></Fifa>
             <Advertise></Advertise>
             <Blog></Blog>
             <ContactUs></ContactUs>
+            <Newsletter></Newsletter>
         </div>
     );
 };
