@@ -5,11 +5,9 @@ import ProductsSec from './ProductsSec/ProductsSec';
 
 const AllProduct = () => {
     return (
-        <div className='flex'>
-            <div className='w-1/5 bg-base-300'>
-                <LeftNav></LeftNav>
-            </div>
-            <div className='w-4/5 '>
+        <div className=''>
+            <h1 className='text-3xl font-semibold my-3 text-center'>Popular Products</h1>
+            <div className='w-full '>
                 <ProductsSec></ProductsSec>
             </div>
         </div>

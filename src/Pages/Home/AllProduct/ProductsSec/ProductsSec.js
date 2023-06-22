@@ -20,7 +20,7 @@ const ProductsSec = () => {
     // }, [])
     return (
         <section>
-            <div className='p-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
+            <div className='p-5 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4'>
                 {
                     products.map(product => <ProductCard
                         key={product._id}
